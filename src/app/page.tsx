@@ -26,9 +26,9 @@ export default function home() {
   }
 
   return(
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="rounded-md p-5 px-12 bg-blue-500 " >
-        <h1 className="text 4xl font-bold">{obterSaudacao(morador)}</h1>
+    <div id="principal" className="flex flex-col items-center justify-center h-screen">
+      <div id="componente" className="card-azul">
+        <h1 id="name" className="text 4xl font-bold">{obterSaudacao(morador)}</h1>
       </div>
     </div>
   );
